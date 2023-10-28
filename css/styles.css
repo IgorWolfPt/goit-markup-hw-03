@@ -398,9 +398,9 @@ ol, ul {
     padding-bottom: 32px;
     width: calc((100% - 24px * 8)) / 9;
 }
- .link-portfolio-bild {
+ /* .link-portfolio-bild {
     text-decoration: none;
- }
+ } */
 
  .portfolio-title {
      font-weight: 500;
