@@ -332,14 +332,16 @@ img {
  /* FOOTER */
  
 .section-footer {
+    display: flex;
     padding: 100px 0;
     background-color: var(--color-brend-durck);
     justify-content: left;
 }
  
 .footer {
+    /* margin-right: auto; */
     display: block;
-    width: 264px;
+    /* width: 264px; */
     
 }
 
@@ -378,13 +380,14 @@ img {
     
 }
 .list-item-button {
-    justify-content: center;
+    display: flex;
     margin-top: 96px;
     margin-bottom: 72px; 
- 
+    justify-content: center;
+    
 }
 .list-button {
-    width: calc((100% - 24px * 4) / 5);
+    /* width: calc((100% - 24px * 4) / 5); */
    }
 
 .list-item-portfolio {
