@@ -69,6 +69,10 @@ ol, ul {
     display: flex;
     list-style: none;
     flex-wrap: wrap;
+    gap: 24px;
+}
+.list-item {
+    
 }
 
 .flex-cotainer-logo {
@@ -205,11 +209,7 @@ ol, ul {
     padding: 120px 156px 112px 156px;
     
 }
-.list-item {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 24px;
-}
+
 .list-box-one {
     width: calc((100% - 24px * 3) / 4);
 
@@ -285,7 +285,7 @@ ol, ul {
     display: block;
 }
 .our-tem-promoution {
-    justify-content: center;
+    /* justify-content: center; */
     font-size: 36px;
     line-height: 1.11;
     text-align: center;
@@ -300,8 +300,6 @@ ol, ul {
 }
 
 .list-team-person {
-    display: block;
-    justify-content: center;
     padding-bottom: 32px;
     background-color: #FFFFFF;
     width: calc((100% - 24px * 3)) / 4;
@@ -364,10 +362,6 @@ ol, ul {
     
 }
 .list-item-button {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 24px;
-    justify-content: center;
     margin-top: 96px;
     margin-bottom: 72px; 
 }
@@ -396,7 +390,7 @@ ol, ul {
     display: block;
     justify-content: center;
     padding-bottom: 32px;
-    width: calc((100% - 24px * 8)) / 9;
+    width: calc((100% - 24px * 2)) / 3;
 }
  /* .link-portfolio-bild {
     text-decoration: none;
