@@ -64,6 +64,7 @@ img {
     text-decoration: none;
 }
 .link-nav {
+    padding: 24px 0;
     color: var(--color-brend-durck);
 }
 .list {
@@ -333,7 +334,6 @@ img {
 .section-footer {
     padding: 100px 0;
     background-color: var(--color-brend-durck);
-    padding: 100px 1020px 100px 156px;
     justify-content: left;
 }
  
