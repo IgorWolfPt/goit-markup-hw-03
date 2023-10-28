@@ -1,9 +1,11 @@
 
+/* RESET START */
 body {
     background-color: var(--background-color);
     font-family: 'Roboto', sans-serif;
     color: #434455;
 } 
+
 :root {
     --background-color: #FFFFFF;
     --color-brend: #4d5ae5;
@@ -11,13 +13,52 @@ body {
     --color: #434455;
     --color-brend-light: #F4F4FD;
     --color-logo: #404bbf;
+    --color-border: #E7E9FC;
 }
 
-      
+h1, h2, h3, h4, h5, h6, p {
+    margin: 0;
+}
+ol, ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
 
+
+.img {
+    display: block;
+}
+
+
+/* RESET END */
+
+.container {
+    width: 1158px;
+    display: flex;
+    margin: 0 auto;
+    justify-content: center;
+    
+     
+
+}
+
+.btn {
+        padding: 12px 24px;
+        border-radius: 4px;
+        border: 1px solid transparent;
+        text-align: center;
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 1.5;
+        letter-spacing: 0.04em;
+        cursor: pointer;
+}
            /* LOGO */
 
-
+.section-header {
+    border-bottom: 1px solid var(--c);
+}
 .link {
     text-decoration: none;
 }
@@ -25,7 +66,14 @@ body {
     color: var(--color-brend-durck);
 }
 .list {
+    display: flex;
     list-style: none;
+    flex-wrap: wrap;
+}
+
+.flex-cotainer-logo {
+    gap: 40px;
+    margin-right: 332px;
 }
 .logo {
     color: var(--color-brend);
@@ -36,14 +84,22 @@ body {
     line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    list-style: none;
+    margin-right: 76px;
+    
 }
+
 .logo-dark {
     color: var(--color-brend-durck);
 }
 .logo-light {
     color: #F4F4FD;
 }
+.logo-list-container {
+    display: flex;
+    margin-top: 24px;
+    margin-bottom: 24px;
+}
+
 .logo:hover,
 .logo-dark:hover,
 .logo:focus,
@@ -65,7 +121,12 @@ body {
 .address {
     font-style: normal;
 }
-
+.flex-container-address {
+    margin-top: 24px;
+    margin-bottom: 24px;
+    display: flex;
+    gap: 40px;
+}
 .list-text {
     font-weight: 500;
     font-size: 16px;
@@ -92,83 +153,93 @@ body {
 
 
 
+            /* FIRST SECTION */
+   /* MAIN POSTER */
 
-                    /* START POSTER */
-                    
-.start-poster {
-    background-color: var(--background-color);
-}
-.menu-stud {
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    color: var(--color-brend-durck);
-}
-
-
-
-            /* FOOTER */
-    
-.footer {
+.section-first {
     background-color: var(--color-brend-durck);
+    
 }
-.link-logo-light {
-    color: #f4f4fd;
-}
-
-.footer-text {
-    line-height: 1.5;
-    color:var(--color-brend-light);
-    letter-spacing: 0.02em;
+.main-box {
+    display: block;
+    padding-top: 188px;
+    padding-bottom: 188px;
+    justify-content: center;
 }
 
-             /* MAIN POSTER */
-
-           /* section one */
-
-.main-title {
-    background-color:var(--color-brend-durck);
-
-}
 .main-title-bild {
-    color: var(--WHITE, #FFF);
+        width: 496px; 
+        
+        color: var(--WHITE, #FFF);
         text-align: center;
         font-size: 56px;
         font-style: normal;
         font-weight: 700;
         line-height: 1.07;
         letter-spacing: 0.02em;
+        margin: 0 auto;
+        margin-bottom: 48px;
+        
+        
 }
-.main-btn-order {
+.main-btn {
+    display: block;
     background-color: #4D5AE5;
-    font-family: "Roboto", sans-serif;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.04em;
     color: #ffffff;
+    padding: 16px 32px;  
+    margin: 0 auto;
+     
 }
 
-.main-btn-order:hover,
-.main-btn-order:focus {
+.main-btn:hover,
+.main-btn:focus {
     background-color: #404BBF;
     cursor: pointer;
 }     
 
-                /* SECTION TWO */
+               /* SECOND SECTION */
 
- /* ABOUT US */
+                  /* ABOUT US */
 
+.section-second {
+    padding: 120px 156px 112px 156px;
+    
+}
+.list-item {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+}
+.list-box-one {
+    width: calc((100% - 24px * 3) / 4);
+
+
+}
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
 
 .feature {
+    text-align: center;
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: var(--color-brend-durck);
+    margin-bottom: 8px;
 }
-
+.feature-abot {
+    text-align: left;
+}
 .feature-text {
     font-size: 16px;
     line-height: 1.5;
@@ -180,65 +251,153 @@ body {
 
 
 
-              /* SECTION THREE */
+              /* THIRD SECTION */
+
+             /* our mission */
+
+.section-third {
+    padding: 0 156px 128px 156px;
+    
+}
+.our-mission-box {
+    display: block;
+        
+}
+
+
+.list-box-promoution {
+    width: calc((100% - 24px * 2)) / 3;
+}
+               
 
 
 
-               /* SECTION FOUR */
+               /* FOURTH SECTION */
 
                   /* OUR TEAM */
+
+
+.section-fourth {
+    padding: 120px 156px;
+    background-color: var(--color-brend-light);
+}
+.our-team {
+    display: block;
+}
 .our-tem-promoution {
+    justify-content: center;
     font-size: 36px;
     line-height: 1.11;
     text-align: center;
     letter-spacing: 0.02em;
     text-transform: capitalize;
     color: var(--color-brend-durck);
+    margin-bottom: 72px;
 }
 
-.our-team {
-    background-color: var(--color-brend-light);
+.foto-team {
+    margin-bottom: 32px;
 }
 
-.our-team-person {
+.list-team-person {
+    display: block;
+    justify-content: center;
+    padding-bottom: 32px;
     background-color: #FFFFFF;
+    width: calc((100% - 24px * 3)) / 4;
+ 
 }
 
 
 
 .our-team-text {
+    text-align: center;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: var(--color);
 }
+
+ /* FOOTER */
+.my-hope {
+    padding: 100px 1020px 100px 156px;
+}
+ 
+.section-footer {
+    background-color: var(--color-brend-durck);
+    padding: 100px 1020px 100px 156px;
+    justify-content: left;
+}
+ 
+.footer {
+    display: block;
+    width: 264px;
+    
+}
+ .link-logo-light {
+     color: #f4f4fd;
+ }
+
+ .footer-text {
+    line-height: 1.5;
+    color: var(--color-brend-light);
+    letter-spacing: 0.02em;
+ }
     
         /* BUTTONS */
         
+.section-portfolio {
+    display: block;
+   padding: 0 156px 120px 156px;
+}
+.container-portfolio {
+    width: 1158px;
+    margin: 0 auto;
+    justify-content: center;
+}
+
 
 .button-filter {
     background-color: var(--color-brend-light);
     color: var(--color-brend);
-    text-align: center;
-    font-family: "Roboto", sans-serif;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: 1.5;
-    letter-spacing: 0.04em;
-    cursor: pointer;
-}
+    border-color:  var(--color-border);
     
+}
+.list-item-button {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+    justify-content: center;
+    margin-top: 96px;
+    margin-bottom: 72px; 
+}
+.list-button {
+    width: calc((100% - 24px * 4)) / 5;
+   }
+
+.list-item-portfolio {
+    display: flex;
+        flex-wrap: wrap;
+        gap: 24px;
+        justify-content: center;
+        margin-bottom: 120px;
+}
 .button-filter:hover,
 .button-filter:focus {
     background: var(--OCEAN, #404BBF);
     color: #FFFFFF;
+    border-color: transparent;
 }
 
                /* LIST PORTFOLIO */
 
 
-
+.list-box-portfolio {
+    display: block;
+    justify-content: center;
+    padding-bottom: 32px;
+    width: calc((100% - 24px * 8)) / 9;
+}
  .link-portfolio-bild {
     text-decoration: none;
  }
@@ -248,7 +407,11 @@ body {
      font-size: 20px;
      line-height: 1.2;
      letter-spacing: 0.02em;
-     color: var(--color-brend-durck)
+     color: var(--color-brend-durck);
+     margin-bottom: 8px;
+ }
+ .portfolio-mark {
+    padding: 0px 16px;
  }
 
  .portfolio-title-text {
@@ -257,30 +420,6 @@ body {
      letter-spacing: 0.02em;
      color: var(--color);
  }
-.buttontext {
-    color: #2E2F42;
-    font-family: Roboto;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: 1.5;
-    letter-spacing: 0.64px;
-}
-
-button {
-    color: var(--WHITE, #FFF);
-    background: var(--IRIS, #4D5AE5);
-    font-family: Roboto;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: 1.5;
-    letter-spacing: 0.64px;
-}
-
-
-
-   
 
 
 .we-are-title {
