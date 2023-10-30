@@ -83,7 +83,7 @@ img {
 
 .flex-cotainer-logo {
     gap: 40px;
-    margin-right: 332px;
+    /* margin-right: 332px; */
 }
 .logo {
     color: var(--color-brend);
@@ -133,8 +133,8 @@ img {
     font-style: normal;
 }
 .flex-container-address {
-    /* padding: 24px 0; */
     display: flex;
+    margin-left: auto;
     gap: 40px;
 }
 .list-text {
