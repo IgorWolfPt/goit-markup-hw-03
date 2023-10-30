@@ -61,7 +61,7 @@ img {
 }
 .header-container {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
 }
         
@@ -152,6 +152,7 @@ img {
     letter-spacing: 0.02em;
 }
 .link-address {
+    display: block;
     padding: 24px 0px;
     color: var(--color);
 }
