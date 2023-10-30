@@ -108,8 +108,7 @@ img {
 .logo-list-container {
     display: flex;
     align-items: center;
-    /* margin-top: 24px;
-    margin-bottom: 24px; */
+
 }
 
 .logo:hover,
@@ -134,9 +133,7 @@ img {
     font-style: normal;
 }
 .flex-container-address {
-    padding: 24px 0;
-    margin-top: 24px;
-    margin-bottom: 24px;
+    /* padding: 24px 0; */
     display: flex;
     gap: 40px;
 }
@@ -149,11 +146,13 @@ img {
 }
 
 .list-address {
+    
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
 }
 .link-address {
+    padding: 24px 0px;
     color: var(--color);
 }
 
